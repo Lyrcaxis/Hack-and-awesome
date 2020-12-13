@@ -35,7 +35,6 @@ public class AnimationEventsListener : MonoBehaviour {
 		SoundManager.Play(roll.clip, roll.volume, pitch);
 	}
 
-	// Clean implemetation -- remains unused for the player for the sake of not having to modify the audio files to time perfectly
 	public void Attack(int currentCombo) {
 		var audioTrack = GetTrackForCombo();
 		SoundManager.Play(audioTrack.clip, audioTrack.volume);
