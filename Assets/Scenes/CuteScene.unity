@@ -4264,7 +4264,7 @@ MonoBehaviour:
     min: 5
     max: 10
   EnemySpawnPositions:
-  - {x: 76.85, y: 0, z: 3.7}
+  - {x: 81, y: 0, z: 8.2}
   - {x: 46, y: 0, z: 8.2}
   - {x: 46, y: 0, z: -27.55}
   - {x: 81, y: 0, z: -27.55}
